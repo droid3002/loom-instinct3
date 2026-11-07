@@ -1,0 +1,21 @@
+// Jungle build settings for the Connect IQ SDK (monkeyc).
+//
+// NOTE: the exact jungle schema varies by SDK version. If monkeyc complains
+// about this file, build directly from the command line instead (see BUILD.md):
+//
+//   monkeyc -d instinct3 -m manifest.xml -o bin/Doom.prg -y <developer-key.der> \
+//       source/DoomApp.mc source/DoomView.mc source/DoomEngine.mc
+{
+    "iq": {
+        "project": {
+            "name": "DOOM Instinct 3",
+            "identifier": "com.arturo.doominstinct3",
+            "version": "1.0.0",
+            "minSDKVersion": "3.2.0",
+            "type": "watch-app",
+            "sourceDirectories": ["source"],
+            "resourceDirectories": ["resources"],
+            "devices": ["instinct3"]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+# Connect IQ build outputs — binaries are never committed
+bin/
+*.prg
+*.iq
+*.debug.xml
+*internal-mir*
+*external-mir*
+gen/
+
+# Developer signing keys — private, never commit these
+*.der
+*.pem
+
+# OS noise
+.DS_Store

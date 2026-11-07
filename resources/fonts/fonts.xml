@@ -1,0 +1,4 @@
+<fonts>
+    <font id="DoomSmall" filename="loom_small.fnt" antialias="false"/>
+    <font id="DoomBig" filename="loom_big.fnt" antialias="false"/>
+</fonts>

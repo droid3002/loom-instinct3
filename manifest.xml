@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application entry="DoomApp" id="f60aa97406de642bea87e32d8e972c8a" launcherIcon="@Drawables.Icon"
+        minApiLevel="4.2.1" name="@Strings.AppName" type="watch-app">
+        <iq:products>
+            <!-- Instinct 3 Solar 45mm / 50mm (176x176 MIP, API level 5.1) -->
+            <iq:product id="instinct3solar45mm"/>
+        </iq:products>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+    </iq:application>
+</iq:manifest>
